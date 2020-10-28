@@ -1,0 +1,21 @@
+to see
+sudo systemctl list-unit-files --type service | grep enabled
+
+apache2.service							for web server
+apparmor.service                   		mandatory access controls
+autovt@.service                      	for login
+cron.service                          	for cron
+dbus-org.freedesktop.timesync1.service 	Network Time Synchronization
+fail2ban.service                      	for fail2ban
+getty@.service                        	login
+networking.service                   	raises or downs the network interfaces
+rsyslog.service                       	for logs
+ssh.service                           	for ssh
+sshd.service                          	for ssh
+syslog.service                         	for logs
+systemd-fsck-root.service             	for file system checks
+systemd-timesyncd.service             	for synchronizing the system clock across the network
+ufw.service          
+
+leave these with
+sudo systemctl disable SERVICE_NAME

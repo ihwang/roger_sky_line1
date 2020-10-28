@@ -1,0 +1,12 @@
+ssh
+vim
+ufw
+sudo
+net-tools
+iptables
+fail2ban
+apache2
+portsentry
+bsd-mailx
+postfix
+mutt

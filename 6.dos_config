@@ -1,0 +1,10 @@
+cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+
+add this to jail.local
+[sshd]
+enable = true
+port = xxxxx
+
+then
+
+sudo service fail2ban restart

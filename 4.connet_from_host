@@ -1,0 +1,7 @@
+On client side
+ssh-keygen -t rsa
+
+pingtest
+ping 192.168.0.61
+
+connect ssh ihwang@xxx.xxx.xx.xx -p 59999

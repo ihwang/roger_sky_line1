@@ -1,0 +1,13 @@
+sudo ufw status
+sudo ufw enable
+
+#allow ssh port
+sudo ufw allow xxxxx/tcp
+#allow for http
+sudo ufw allow 80/tcp
+#for https
+sudo ufw allow 443
+
+then
+
+sudo ufw reload

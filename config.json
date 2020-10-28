@@ -1,0 +1,8 @@
+{
+    "vboxname": "server2",
+    "ostype": "Debian_64",
+    "vboxpath": "/Users/tango/VirtualBox\\ VMs",
+    "isopath": "/Users/tango/Downloads/debian-10.4.0-amd64-netinst.iso",
+    "disksize": "8200",
+    "sshport": 20000
+}

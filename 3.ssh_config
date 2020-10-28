@@ -1,0 +1,6 @@
+/etc/ssh/sshd_config
+
+rootPermission no
+change port NO.
+then
+sudo service ssh restart
