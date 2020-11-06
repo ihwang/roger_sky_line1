@@ -1,8 +1,14 @@
 {
-    "vboxname": "server2",
+    "vboxname": "foo10",
     "ostype": "Debian_64",
-    "vboxpath": "/Users/tango/VirtualBox\\ VMs",
-    "isopath": "/Users/tango/Downloads/debian-10.4.0-amd64-netinst.iso",
+	"vboxpath": "/Users/tango/VirtualBox\\ VMs",
+	"isodirectory": "/Users/tango/Downloads",
+    "isoname": "debian-10.4.0-amd64-netinst.iso",
     "disksize": "8200",
-    "sshport": 20000
+    "port": "20000",
+    "username": "ihwang",
+    "passwd": "ahqkdlf1",
+    "ip": "192.168.35.59",
+    "netmask": "255.255.255.252",
+    "gateway": "192.168.35.1"
 }
